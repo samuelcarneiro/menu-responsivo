@@ -39,6 +39,14 @@ header {
 
 .nav-item {
     margin: 0 1rem;
+    padding: .5rem 1rem;
+    border: 2px solid #24252A;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.nav-item:hover {
+    border: 2px solid #0187A7;
 }
 
 .nav-link {
@@ -71,7 +79,7 @@ header {
     display: none;
 }
 
-/* MEDIA QUERYS*/
+/* ##### MEDIA QUERY ##### */
 @media screen and (max-width: 730px) {
     .nav-bar {
         padding: 1.5rem 4rem;
@@ -104,7 +112,7 @@ header {
 
     .mobile-menu .nav-item {
         display: block;
-        padding-top: 1.2rem;
+        margin-top: .5rem;
     }
 
     .mobile-menu .login-button {
